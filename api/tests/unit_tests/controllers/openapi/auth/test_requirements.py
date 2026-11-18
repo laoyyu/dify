@@ -46,7 +46,6 @@ from controllers.openapi.auth.requirements import (
     CheckAppMode,
     CheckAppQuota,
     CheckFileTransfersEnabled,
-    CheckNamedWorkspaceMember,
     CheckPluginInstallSetting,
     CheckRBACPermission,
     CheckScope,
@@ -1941,12 +1940,12 @@ DECLARED: dict[str, tuple[Requirement, ...]] = {
     "apps.list": (
         CheckSubject(allowed=(AccountSubject, ResourceAccessSubject, ExternalSsoSubject)),
         CheckScope(Scope.APPS_READ),
-        CheckNamedWorkspaceMember(),
+        CheckWorkspaceMember(),
     ),
     "apps.list.everywhere": (
         CheckSubject(allowed=(AccountSubject, ResourceAccessSubject, ExternalSsoSubject)),
         CheckScope(Scope.APPS_READ),
-        CheckNamedWorkspaceMember(),
+        CheckWorkspaceMember(),
     ),
     "workspaces.list": (
         CheckSubject(allowed=(AccountSubject, ResourceAccessSubject)),
