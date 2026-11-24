@@ -116,6 +116,8 @@
   "collaboration.joinUnavailable": "无法连接协作编辑，此画布上的修改可能尚未保存。",
   "collaboration.reloadPage": "重新加载页面",
   "collaboration.replacedWithPendingEdits": "草稿已被恢复或导入覆盖，已切换到最新草稿。旧草稿中尚未确认保存的本地修改已清除。",
+  "collaboration.userEditing": "{{name}} 正在编辑",
+  "collaboration.viewCollaborators": "查看 {{count}} 位协作者",
   "common.accessAPIReference": "访问 API",
   "common.accessPointDescription": "配置 Web 应用、API、MCP 和触发器",
   "common.addBlock": "添加节点",

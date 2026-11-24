@@ -116,6 +116,8 @@
   "collaboration.joinUnavailable": "共同編集に接続できません。このキャンバスの変更は保存されていない可能性があります。",
   "collaboration.reloadPage": "ページを再読み込み",
   "collaboration.replacedWithPendingEdits": "下書きが復元されたか、インポートで上書きされました。最新の下書きに切り替わり、古い下書きの保存が未確認のローカル編集内容は削除されました。",
+  "collaboration.userEditing": "{{name}} が編集中",
+  "collaboration.viewCollaborators": "{{count}} 人の共同編集者を表示",
   "common.accessAPIReference": "API リファレンス",
   "common.accessPointDescription": "Web アプリ、API、MCP、トリガーを設定",
   "common.addBlock": "ブロックを追加",

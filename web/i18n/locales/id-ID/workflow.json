@@ -116,6 +116,8 @@
   "collaboration.joinUnavailable": "Tidak dapat terhubung ke kolaborasi. Perubahan pada kanvas ini mungkin belum disimpan.",
   "collaboration.reloadPage": "Muat Ulang Halaman",
   "collaboration.replacedWithPendingEdits": "Draf dipulihkan atau ditimpa melalui impor. Draf terbaru telah dimuat dan perubahan lokal yang belum dikonfirmasi dari draf lama telah dihapus.",
+  "collaboration.userEditing": "{{name}} sedang mengedit",
+  "collaboration.viewCollaborators": "Lihat {{count}} kolaborator",
   "common.accessAPIReference": "Referensi API Akses",
   "common.accessPointDescription": "Konfigurasikan aplikasi web, API, MCP, dan pemicu",
   "common.addBlock": "Tambahkan Node",

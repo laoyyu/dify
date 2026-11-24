@@ -116,6 +116,8 @@
   "collaboration.joinUnavailable": "Nu s-a putut conecta la colaborare. Modificările de pe acest spațiu de lucru ar putea să nu fie salvate.",
   "collaboration.reloadPage": "Reîncarcă pagina",
   "collaboration.replacedWithPendingEdits": "Schița a fost restaurată sau înlocuită prin import. A fost încărcată cea mai recentă schiță, iar modificările locale neconfirmate din schița veche au fost șterse.",
+  "collaboration.userEditing": "{{name}} editează",
+  "collaboration.viewCollaborators": "Vezi {{count}} colaboratori",
   "common.accessAPIReference": "Accesează referința API",
   "common.accessPointDescription": "Configurează aplicația web, API, MCP și declanșatoarele",
   "common.addBlock": "Adaugă nod",

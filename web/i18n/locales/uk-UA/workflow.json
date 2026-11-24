@@ -116,6 +116,8 @@
   "collaboration.joinUnavailable": "Не вдалося підключитися до спільної роботи. Зміни на цьому полотні можуть бути не збережені.",
   "collaboration.reloadPage": "Перезавантажити сторінку",
   "collaboration.replacedWithPendingEdits": "Чернетку відновлено або замінено імпортом. Завантажено актуальну чернетку, а непідтверджені локальні зміни старої чернетки видалено.",
+  "collaboration.userEditing": "{{name}} редагує",
+  "collaboration.viewCollaborators": "Показати співавторів: {{count}}",
   "common.accessAPIReference": "Доступ до довідника API",
   "common.accessPointDescription": "Налаштувати вебзастосунок, API, MCP і тригери",
   "common.addBlock": "Додати вузол",

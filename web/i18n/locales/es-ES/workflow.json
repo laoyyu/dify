@@ -116,6 +116,8 @@
   "collaboration.joinUnavailable": "No se pudo conectar a la colaboración. Es posible que los cambios en este lienzo no se hayan guardado.",
   "collaboration.reloadPage": "Recargar Página",
   "collaboration.replacedWithPendingEdits": "El borrador se restauró o se reemplazó mediante una importación. Se cargó el borrador más reciente y se eliminaron los cambios locales sin confirmar del anterior.",
+  "collaboration.userEditing": "{{name}} está editando",
+  "collaboration.viewCollaborators": "Ver {{count}} colaboradores",
   "common.accessAPIReference": "Acceder a la referencia de la API",
   "common.accessPointDescription": "Configurar la aplicación web, la API, MCP y los activadores",
   "common.addBlock": "Agregar nodo",

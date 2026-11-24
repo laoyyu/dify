@@ -116,6 +116,8 @@
   "collaboration.joinUnavailable": "Verbindung zur Zusammenarbeit fehlgeschlagen. Änderungen auf dieser Arbeitsfläche sind möglicherweise nicht gespeichert.",
   "collaboration.reloadPage": "Seite neu laden",
   "collaboration.replacedWithPendingEdits": "Der Entwurf wurde wiederhergestellt oder durch einen Import ersetzt. Der aktuelle Entwurf ist geladen. Nicht bestätigte lokale Änderungen des alten Entwurfs wurden gelöscht.",
+  "collaboration.userEditing": "{{name}} bearbeitet gerade",
+  "collaboration.viewCollaborators": "{{count}} Mitwirkende anzeigen",
   "common.accessAPIReference": "API-Referenz aufrufen",
   "common.accessPointDescription": "Web-App, API, MCP und Trigger konfigurieren",
   "common.addBlock": "Knoten hinzufügen",

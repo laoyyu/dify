@@ -1,6 +1,7 @@
 import type { LoroDoc } from 'loro-crdt'
 import type { Edge, Node } from '../../types'
 import { isEqual } from 'es-toolkit/predicate'
+import { v4 as uuid4 } from 'uuid'
 
 type Json = null | boolean | number | string | Json[] | { [key: string]: Json }
 type Path = (string | { row: string })[]
@@ -433,7 +434,7 @@ export function diffDraftValue(
       const matches = matchRows(prior, next)
       const nextIds = matches.map((j, index) => {
         if (j !== undefined) return oldIds[j]!
-        return initializing ? `default:${index}` : `n:${crypto.randomUUID()}`
+        return initializing ? `default:${index}` : `n:${uuid4()}`
       })
       arrayIds.set(next, nextIds)
       const remaining = new Set(nextIds)

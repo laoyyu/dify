@@ -26,7 +26,7 @@ import { toast } from '@/app/notifications'
 import { useEventEmitterContextContext } from '@/context/event-emitter'
 import { DSLImportMode, DSLImportStatus } from '@/models/app'
 import { consoleQuery } from '@/service/console'
-import { fetchWorkflowDraft } from '@/service/workflow'
+import { fetchAppWorkflowDraft } from '@/service/workflow'
 import { getErrorMessage } from '@/utils/error-message'
 import { collaborationManager } from './collaboration/core/collaboration-manager'
 import { WORKFLOW_DATA_UPDATE } from './constants'
@@ -65,7 +65,7 @@ function UpdateDSLModal({
     async (app_id: string) => {
       if (collaborationManager.usesLoroDraft(app_id)) return
       const { graph, features, hash, conversation_variables, environment_variables } =
-        await fetchWorkflowDraft(`/apps/${app_id}/workflows/draft`)
+        await fetchAppWorkflowDraft(app_id)
 
       const { nodes, edges, viewport } = graph
       const importedNodes = initialNodes(nodes, edges)

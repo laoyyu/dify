@@ -3,6 +3,7 @@ import type { Event } from '@/app/components/tools/types'
 import type { TriggerWithProvider } from '@/app/components/workflow/block-selector/types'
 import type { ResourceVarInputs } from '@/app/components/workflow/nodes/_base/types'
 import type { InputVar } from '@/app/components/workflow/types'
+import { useQuery } from '@tanstack/react-query'
 import { produce } from 'immer'
 import { useCallback, useEffect, useMemo } from 'react'
 import {
@@ -11,7 +12,10 @@ import {
 } from '@/app/components/tools/utils/to-form-schema'
 import { runDraftInitialization } from '@/app/components/workflow/collaboration/core/collaboration-manager'
 import useNodeCrud from '@/app/components/workflow/nodes/_base/hooks/use-node-crud'
-import { useAllTriggerPlugins, useTriggerSubscriptions } from '@/service/use-triggers'
+import {
+  allTriggerPluginsQueryOptions,
+  triggerSubscriptionsQueryOptions,
+} from '@/service/trigger-queries'
 import { useNodesReadOnly } from '../../hooks/use-workflow'
 import { VarKindType } from '../_base/types'
 
@@ -62,7 +66,7 @@ const normalizeEventParameters = (
 
 const useConfig = (id: string, payload: PluginTriggerNodeType) => {
   const { nodesReadOnly: readOnly } = useNodesReadOnly()
-  const { data: triggerPlugins = [] } = useAllTriggerPlugins()
+  const { data: triggerPlugins = [] } = useQuery(allTriggerPluginsQueryOptions())
 
   const { inputs, setInputs: doSetInputs } = useNodeCrud<PluginTriggerNodeType>(id, payload)
 
@@ -93,7 +97,7 @@ const useConfig = (id: string, payload: PluginTriggerNodeType) => {
     )
   }, [triggerPlugins, provider_name, provider_id])
 
-  const { data: subscriptions = [] } = useTriggerSubscriptions(provider_id || '')
+  const { data: subscriptions = [] } = useQuery(triggerSubscriptionsQueryOptions(provider_id || ''))
 
   const subscriptionSelected = useMemo(() => {
     return subscriptions?.find((s) => s.id === subscription_id)

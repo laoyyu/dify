@@ -116,6 +116,8 @@
   "collaboration.joinUnavailable": "Impossibile connettersi alla collaborazione. Le modifiche a questa area di lavoro potrebbero non essere salvate.",
   "collaboration.reloadPage": "Ricarica Pagina",
   "collaboration.replacedWithPendingEdits": "La bozza è stata ripristinata o sostituita tramite importazione. È stata caricata la bozza più recente e le modifiche locali non confermate della vecchia bozza sono state eliminate.",
+  "collaboration.userEditing": "{{name}} sta modificando",
+  "collaboration.viewCollaborators": "Visualizza {{count}} collaboratori",
   "common.accessAPIReference": "Accedi alla Riferimento API",
   "common.accessPointDescription": "Configura app web, API, MCP e trigger",
   "common.addBlock": "Aggiungi nodo",

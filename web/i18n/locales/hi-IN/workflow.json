@@ -116,6 +116,8 @@
   "collaboration.joinUnavailable": "सहयोग से कनेक्ट नहीं हो सका। इस कैनवास के बदलाव सहेजे नहीं गए हो सकते हैं।",
   "collaboration.reloadPage": "पेज रीलोड करें",
   "collaboration.replacedWithPendingEdits": "ड्राफ़्ट बहाल किया गया या आयात से बदल दिया गया। नवीनतम ड्राफ़्ट लोड हो गया है और पुराने ड्राफ़्ट के अपुष्ट स्थानीय बदलाव हटा दिए गए हैं।",
+  "collaboration.userEditing": "{{name}} संपादित कर रहे हैं",
+  "collaboration.viewCollaborators": "{{count}} सहयोगी देखें",
   "common.accessAPIReference": "एपीआई संदर्भ तक पहुंचें",
   "common.accessPointDescription": "वेब ऐप, API, MCP और ट्रिगर कॉन्फ़िगर करें",
   "common.addBlock": "नोड जोड़ें",

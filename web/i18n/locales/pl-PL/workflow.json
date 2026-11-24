@@ -116,6 +116,8 @@
   "collaboration.joinUnavailable": "Nie udało się połączyć ze współpracą. Zmiany na tym obszarze roboczym mogły nie zostać zapisane.",
   "collaboration.reloadPage": "Odśwież stronę",
   "collaboration.replacedWithPendingEdits": "Wersja robocza została przywrócona lub zastąpiona przez import. Wczytano najnowszą wersję i usunięto niepotwierdzone lokalne zmiany poprzedniej wersji.",
+  "collaboration.userEditing": "{{name}} edytuje",
+  "collaboration.viewCollaborators": "Wyświetl współpracowników: {{count}}",
   "common.accessAPIReference": "Uzyskaj dostęp do dokumentacji API",
   "common.accessPointDescription": "Skonfiguruj aplikację internetową, API, MCP i wyzwalacze",
   "common.addBlock": "Dodaj węzeł",

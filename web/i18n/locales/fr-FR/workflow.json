@@ -116,6 +116,8 @@
   "collaboration.joinUnavailable": "Impossible de se connecter à la collaboration. Les modifications de ce canevas ne sont peut-être pas enregistrées.",
   "collaboration.reloadPage": "Recharger la Page",
   "collaboration.replacedWithPendingEdits": "Le brouillon a été restauré ou remplacé par un import. Le dernier brouillon est chargé et les modifications locales non confirmées de l’ancien brouillon ont été supprimées.",
+  "collaboration.userEditing": "{{name}} est en train de modifier",
+  "collaboration.viewCollaborators": "Voir {{count}} collaborateurs",
   "common.accessAPIReference": "Accéder à la référence API",
   "common.accessPointDescription": "Configurer l’application web, l’API, MCP et les déclencheurs",
   "common.addBlock": "Ajouter un nœud",
