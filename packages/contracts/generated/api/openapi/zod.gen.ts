@@ -1833,6 +1833,7 @@ export const zOpenApiErrorCode = z.enum([
   'env_variable_not_found',
   'file_extension_blocked',
   'file_too_large',
+  'file_transfers_disabled',
   'filename_not_exists',
   'forbidden',
   'form_not_found',
